@@ -1,0 +1,6 @@
+# Favor the simple allocator on NOMMU targets to avoid early userspace OOM.
+# MALLOC is not set
+MALLOC_SIMPLE=y
+
+# Reduce default thread stack footprint.
+PTHREADS_STACK_DEFAULT_SIZE=65536

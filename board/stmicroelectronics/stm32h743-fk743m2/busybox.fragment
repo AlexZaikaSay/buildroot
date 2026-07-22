@@ -1,0 +1,3 @@
+# Keep /bin/sh smaller on constrained NOMMU systems.
+CONFIG_FEATURE_EDITING_HISTORY=64
+# CONFIG_FEATURE_EDITING_VI is not set
